@@ -4,14 +4,13 @@ Simple PHP Test Method Creator
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+![feature X](images/test-creator2.gif)
 
-For example if there is an image subfolder under your extension project workspace:
-![feature X](images/1.png)
-![feature X](images/2.png)
-![feature X](images/3.png)
-![feature X](images/4.png)
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Create a test method.
+
+Type 'test ...' anywhere in your edtior.
+
+Bring up the command palette, and select "Create Test".
 
 ## Requirements
 
