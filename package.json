@@ -2,7 +2,7 @@
     "name": "php-test-creator",
     "displayName": "PHP Test Creator",
     "description": "Create Test",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "pkboom",
     "engines": {
         "vscode": "^1.21.0"

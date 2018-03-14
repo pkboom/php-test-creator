@@ -13,10 +13,10 @@ module.exports = class TestCreator {
             return;
         }
         
-        await this.getDeclarations(activeDocument);
+        await this.insertTestMethod(activeDocument);
     } 
     
-    async getDeclarations(activeDocument) {
+    async insertTestMethod(activeDocument) {
         let doc = await vscode.workspace.openTextDocument(activeDocument);
 
         let lineNumber = -1;
@@ -31,7 +31,6 @@ module.exports = class TestCreator {
             lineNumber++;
 
             multipleTests = lineNumber !== line;
-            // multipleTests = false;
 
             if (/^test .+/.test(textLine)) {
                 let newText = textLine.substring(5).replace(/\s/g, '_');
